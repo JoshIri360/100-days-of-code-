@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply p-3 pb-1.5 pt-1 mt-2 rounded-sm hover:scale-110 transition-all;
+        color: #F9ED69;
+        background-color: #B83B5E;
+    }
+}
+
+body {
+    height: 100vh;
+    background-color: #F9ED69;
+}
+
+.counter {
+    background-color: #F08A5D;
+    color: #6A2C70;
+}
+
+#count-num {
+    margin: 1rem;
+}
+
+.button-holders{
+    display: flex;
+    gap: 25px;
+}
