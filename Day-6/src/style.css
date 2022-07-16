@@ -1,0 +1,32 @@
+body {
+  background-color: #94b49f;
+  color: #df7861;
+}
+
+.box,
+#text-input {
+  background-color: #fcf8e8;
+}
+
+#text-input {
+  border-bottom-width: 2px;
+  border-bottom-color: #df7861;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+  color: #df7861;
+}
+
+button {
+  background-color: #df7861;
+  color: #fcf8e8;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+html {
+  font-size: 13px;
+}

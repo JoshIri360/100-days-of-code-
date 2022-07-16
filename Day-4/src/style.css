@@ -1,0 +1,44 @@
+@keyframes slide-down {
+   0% {
+      transform: translateY(-50vh);
+      opacity: 0%;
+   }
+
+   50% {
+      transform: translateY(10vh);
+      opacity: 80%;
+   }
+   
+   
+   100% {
+      transform: translateY(0vh);
+      opacity: 100%;
+   }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+    background-color: #06283D;
+    color: #DFF6FF;
+ }
+
+ .pop__btn {
+   border: 1px solid #DFF6FF;
+ }
+
+ .pop__banner {
+   background-color: #47B5FF;
+   width: 80vw;
+   animation: slide-down .8s ease-in-out;
+ }
+
+ #banner {
+   background-color: #3d2e0669;
+   width: 100vw;
+   height: 100vh;
+ }
